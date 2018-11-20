@@ -1,0 +1,1426 @@
+---------------------------------------------------------------
+[ 2018-11-08T11:54:51+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/login/login
+[运行时间：0.200012s] [吞吐率：5.00req/s] [内存消耗：3,578.54kb] [文件加载：65]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login/<action>',
+  'route' => 'admin/Login/getlogin',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Login/',
+  ),
+  'var' => 
+  array (
+    'action' => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'login',
+)
+[ info ] [ VIEW ] F:\wamp64\www\lingtu\application\admin\view\Login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-08T11:54:54+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/captcha.html
+[运行时间：0.152009s] [吞吐率：6.58req/s] [内存消耗：2,694.33kb] [文件加载：54]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-08T11:54:55+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/login/login
+[运行时间：0.086005s] [吞吐率：11.63req/s] [内存消耗：3,578.86kb] [文件加载：65]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login/<action>',
+  'route' => 'admin/Login/getlogin',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Login/',
+  ),
+  'var' => 
+  array (
+    'action' => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'login',
+)
+[ info ] [ VIEW ] F:\wamp64\www\lingtu\application\admin\view\Login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-08T11:55:07+08:00 ] 127.0.0.1 POST 127.0.0.1/lingtu/public/login/check
+[运行时间：0.219013s] [吞吐率：4.57req/s] [内存消耗：5,292.71kb] [文件加载：73]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login/<action>',
+  'route' => 'admin/Login/postcheck',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Login/',
+  ),
+  'var' => 
+  array (
+    'action' => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '42',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+)
+[ info ] [ PARAM ] array (
+  'admin_user' => 'ljr',
+  'admin_pass' => 'admin',
+  'fcode' => 'en5d',
+  'action' => 'check',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_admin` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_admin` WHERE  `admin_user` = 'ljr'  AND `admin_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1 [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_admin` WHERE  `admin_user` = 'ljr'  AND `admin_pass` = '21232f297a57a5a743894a0e4a801fc3'  AND `status` = 1 LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_img` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_img` WHERE  `img_surface_name` = 'jsf_admin'  AND `img_surface_id` = 1 LIMIT 1 [ RunTime:0.014001s ]
+[ error ] [8]未定义数组索引: admin_name[F:\wamp64\www\lingtu\application\admin\controller\Login.php:45]
+[ error ] [8]未定义数组索引: level[F:\wamp64\www\lingtu\application\admin\controller\Login.php:47]
+---------------------------------------------------------------
+[ 2018-11-08T11:55:08+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.480027s] [吞吐率：2.08req/s] [内存消耗：5,339.71kb] [文件加载：71]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义变量: curtime[F:\wamp64\www\lingtu\application\admin\controller\Allow.php:19]
+[ error ] [8]未定义变量: curtime[F:\wamp64\www\lingtu\application\admin\controller\Allow.php:19]
+[ error ] [8]未定义变量: curtime[F:\wamp64\www\lingtu\application\admin\controller\Allow.php:20]
+[ error ] [8]未定义变量: curtime[F:\wamp64\www\lingtu\application\admin\controller\Allow.php:20]
+[ error ] [8]未定义数组下标: 1[F:\wamp64\www\lingtu\application\admin\controller\Allow.php:53]
+[ error ] [8]未定义数组下标: 3[F:\wamp64\www\lingtu\application\admin\controller\Allow.php:53]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_task_ico` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `tid`,`start_time`,`cid`,`uid`,`times` FROM `jsf_task_ico` WHERE  `start_time` BETWEEN '1540742400' AND '1541347200'  AND `is_status` = 1  AND `del` = 1 [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_coach` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT `name`,`phone` FROM `jsf_coach` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_task` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `title` FROM `jsf_task` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `name`,`phone` FROM `jsf_coach` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `title` FROM `jsf_task` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `name`,`phone` FROM `jsf_coach` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `title` FROM `jsf_task` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT `name`,`phone` FROM `jsf_coach` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT `title` FROM `jsf_task` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `name`,`phone` FROM `jsf_coach` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `title` FROM `jsf_task` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `name`,`phone` FROM `jsf_coach` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT `title` FROM `jsf_task` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT `name`,`phone` FROM `jsf_coach` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `title` FROM `jsf_task` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT `name`,`phone` FROM `jsf_coach` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `title` FROM `jsf_task` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `name`,`phone` FROM `jsf_coach` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT `title` FROM `jsf_task` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:55:39+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.152008s] [吞吐率：6.58req/s] [内存消耗：5,372.71kb] [文件加载：75]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义变量: maps[F:\wamp64\www\lingtu\application\admin\controller\Allow.php:24]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jsf.lt_code' doesn't exist[F:\wamp64\www\lingtu\thinkphp\library\think\db\Connection.php:699]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+---------------------------------------------------------------
+[ 2018-11-08T11:55:54+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.141008s] [吞吐率：7.09req/s] [内存消耗：5,299.75kb] [文件加载：71]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义变量: maps[F:\wamp64\www\lingtu\application\admin\controller\Allow.php:24]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` LIMIT 1 [ RunTime:0.014001s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:56:11+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.134008s] [吞吐率：7.46req/s] [内存消耗：5,302.68kb] [文件加载：71]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义变量: maps[F:\wamp64\www\lingtu\application\admin\controller\Allow.php:24]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:56:24+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.147009s] [吞吐率：6.80req/s] [内存消耗：5,302.68kb] [文件加载：71]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义变量: maps[F:\wamp64\www\lingtu\application\admin\controller\Allow.php:24]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023002s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:56:25+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.140008s] [吞吐率：7.14req/s] [内存消耗：5,302.68kb] [文件加载：71]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义变量: maps[F:\wamp64\www\lingtu\application\admin\controller\Allow.php:24]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` [ RunTime:0.013001s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:56:26+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.162009s] [吞吐率：6.17req/s] [内存消耗：5,302.68kb] [文件加载：71]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义变量: maps[F:\wamp64\www\lingtu\application\admin\controller\Allow.php:24]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022002s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` [ RunTime:0.012001s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:56:26+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.138008s] [吞吐率：7.25req/s] [内存消耗：5,302.68kb] [文件加载：71]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义变量: maps[F:\wamp64\www\lingtu\application\admin\controller\Allow.php:24]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` [ RunTime:0.013001s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:56:36+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.160009s] [吞吐率：6.25req/s] [内存消耗：5,363.94kb] [文件加载：74]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.014001s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column '_string' in 'where clause'[F:\wamp64\www\lingtu\thinkphp\library\think\db\Connection.php:699]
+---------------------------------------------------------------
+[ 2018-11-08T11:56:47+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.135008s] [吞吐率：7.41req/s] [内存消耗：5,201.58kb] [文件加载：68]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  `man_num` IN (0,0) [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:56:58+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.144008s] [吞吐率：6.94req/s] [内存消耗：5,201.58kb] [文件加载：68]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  `man_num` IN (0,0) [ RunTime:0.014001s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:57:03+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.148008s] [吞吐率：6.76req/s] [内存消耗：5,201.78kb] [文件加载：68]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  `man_num` IN (0,0) [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:57:03+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.141008s] [吞吐率：7.09req/s] [内存消耗：5,201.78kb] [文件加载：68]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  `man_num` IN (0,0) [ RunTime:0.013001s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:57:04+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.139008s] [吞吐率：7.19req/s] [内存消耗：5,201.78kb] [文件加载：68]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  `man_num` IN (0,0) [ RunTime:0.014001s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:57:23+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.145008s] [吞吐率：6.90req/s] [内存消耗：5,206.71kb] [文件加载：68]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  `man_num` > 0 [ RunTime:0.013001s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:58:12+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.151009s] [吞吐率：6.62req/s] [内存消耗：5,207.06kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num` >`man_num_info` ) [ RunTime:0.015000s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:58:19+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.136008s] [吞吐率：7.35req/s] [内存消耗：5,207.16kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num` > `man_num_info` ) [ RunTime:0.013001s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:58:28+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.140008s] [吞吐率：7.14req/s] [内存消耗：5,207.16kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num` < `man_num_info` ) [ RunTime:0.015001s ]
+---------------------------------------------------------------
+[ 2018-11-08T12:00:28+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.141008s] [吞吐率：7.09req/s] [内存消耗：5,300.65kb] [文件加载：72]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  `man_num` IN (0,1) [ RunTime:0.007000s ]
+[ error ] [8]Object of class think\db\Expression could not be converted to double[F:\wamp64\www\lingtu\thinkphp\library\think\db\Connection.php:1464]
+---------------------------------------------------------------
+[ 2018-11-08T12:00:58+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.146008s] [吞吐率：6.85req/s] [内存消耗：5,208.41kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num` < `man_num_info` ) [ RunTime:0.014001s ]
+---------------------------------------------------------------
+[ 2018-11-08T12:01:57+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.134008s] [吞吐率：7.46req/s] [内存消耗：5,208.41kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num` < `man_num_info` ) [ RunTime:0.013000s ]
+---------------------------------------------------------------
+[ 2018-11-08T12:02:11+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.135008s] [吞吐率：7.41req/s] [内存消耗：5,208.29kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num_info` < `man_num` ) [ RunTime:0.012001s ]
+---------------------------------------------------------------
+[ 2018-11-08T13:14:03+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.151009s] [吞吐率：6.62req/s] [内存消耗：5,208.29kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num_info` < `man_num` ) [ RunTime:0.014001s ]
+---------------------------------------------------------------
+[ 2018-11-08T13:14:04+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.146009s] [吞吐率：6.85req/s] [内存消耗：5,208.29kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num_info` < `man_num` ) [ RunTime:0.017001s ]
+---------------------------------------------------------------
+[ 2018-11-08T13:14:20+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.141008s] [吞吐率：7.09req/s] [内存消耗：5,208.29kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num_info` < `man_num` ) [ RunTime:0.012000s ]
+---------------------------------------------------------------
+[ 2018-11-08T13:14:58+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.148008s] [吞吐率：6.76req/s] [内存消耗：5,208.29kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num_info` < `man_num` ) [ RunTime:0.014001s ]
+---------------------------------------------------------------
+[ 2018-11-08T13:14:59+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.138008s] [吞吐率：7.25req/s] [内存消耗：5,208.29kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num_info` < `man_num` ) [ RunTime:0.012001s ]
+---------------------------------------------------------------
+[ 2018-11-08T13:15:00+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.141008s] [吞吐率：7.09req/s] [内存消耗：5,208.29kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num_info` < `man_num` ) [ RunTime:0.014001s ]
+---------------------------------------------------------------
+[ 2018-11-08T13:15:20+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.138008s] [吞吐率：7.25req/s] [内存消耗：5,208.29kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num_info` < `man_num` ) [ RunTime:0.012001s ]
+---------------------------------------------------------------
+[ 2018-11-08T13:15:21+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.139008s] [吞吐率：7.19req/s] [内存消耗：5,208.29kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num_info` < `man_num` ) [ RunTime:0.014000s ]
+---------------------------------------------------------------
+[ 2018-11-08T13:15:21+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.145009s] [吞吐率：6.90req/s] [内存消耗：5,208.29kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num_info` < `man_num` ) [ RunTime:0.015000s ]
+---------------------------------------------------------------
+[ 2018-11-08T13:15:22+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.140008s] [吞吐率：7.14req/s] [内存消耗：5,208.29kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num_info` < `man_num` ) [ RunTime:0.013001s ]
+---------------------------------------------------------------
+[ 2018-11-08T13:15:22+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.136008s] [吞吐率：7.35req/s] [内存消耗：5,208.29kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num_info` < `man_num` ) [ RunTime:0.013001s ]
+---------------------------------------------------------------
+[ 2018-11-08T13:15:22+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.134008s] [吞吐率：7.46req/s] [内存消耗：5,208.29kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num_info` < `man_num` ) [ RunTime:0.014001s ]
+---------------------------------------------------------------
+[ 2018-11-08T13:16:01+08:00 ] 127.0.0.1 GET 127.0.0.1/lingtu/public/admin/index
+[运行时间：0.138008s] [吞吐率：7.25req/s] [内存消耗：5,208.29kb] [文件加载：69]
+[ info ] [ LANG ] F:\wamp64\www\lingtu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<action>',
+  'route' => 'admin/Index/getindex',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'prefix' => 'admin/Index/',
+  ),
+  'var' => 
+  array (
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/lingtu/public/login/login',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=iibsdu8m103scaf6jn0ehpkic4',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021001s ] mysql:host=134.175.47.209;dbname=jsf;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsf_code` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsf_code` WHERE  ( `man_num_info` < `man_num` ) [ RunTime:0.014001s ]
